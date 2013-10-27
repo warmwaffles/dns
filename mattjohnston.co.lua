@@ -6,7 +6,7 @@
 -- moved to bitbucket
 
 -- A records
-a(_a, "54.215.4.10")
+a(_a, "162.243.64.127")
 
 -- CNAME records
 cname("www", _a)
