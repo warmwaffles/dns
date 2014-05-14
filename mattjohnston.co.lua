@@ -9,3 +9,6 @@ a(_a, "162.243.64.127")
 
 -- CNAME records
 cname("www", _a)
+
+-- Keybase.io Record For Proof
+txt('@', 'keybase-site-verification=m07gqHcdRfObfZznDiwTVsxyK-AybilYHtaZHwUFSKw')
