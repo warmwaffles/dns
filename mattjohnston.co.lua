@@ -11,4 +11,4 @@ a(_a, "162.243.64.127")
 cname("www", _a)
 
 -- keybase.io Record For Proof
-txt('@', 'keybase-site-verification=m07gqHcdRfObfZznDiwTVsxyK-AybilYHtaZHwUFSKw')
+txt(_a, 'keybase-site-verification=m07gqHcdRfObfZznDiwTVsxyK-AybilYHtaZHwUFSKw')
