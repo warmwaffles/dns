@@ -15,3 +15,13 @@ function google_app(domain)
   -- Configure SPF
   txt(domain, "v=spf1 a mx include:_spf.google.com ~all")
 end
+
+function heroku_app(root, app)
+  -- Use alias for root domain
+  -- Syntax: alias(name, target, ttl)
+  alias(root, app, 300)
+
+  -- Use a CNAME for www
+  -- Syntax: cname(name, target, ttl)
+  cname(concat("www", root), app)
+end
