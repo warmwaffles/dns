@@ -4,5 +4,5 @@
 -- Variable _a is replaced with zone name
 -- _a = "bugcache.com"
 
-alias(_a, "bugcache.herokuapp.com", 300)
-cname(concat("www", _a), "bugcache.herokuapp.com", 300)
+alias(_a, "bugcache.com.herokudns.com", 300)
+cname(concat("www", _a), "www.bugcache.com.herokudns.com", 300)
