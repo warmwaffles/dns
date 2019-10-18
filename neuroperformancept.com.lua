@@ -2,7 +2,6 @@
 -- Zone: neuroperformancept.com
 -- SOA record is automatically generated
 -- Variable _a is replaced with zone name
-
 -- _a = "neuroperformancept.com"
 
 google_app(_a)
